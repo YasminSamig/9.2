@@ -1,0 +1,11 @@
+public class Car extends Vehicle{
+    private int wheels;
+    public Car(int s, String c){
+        super(s,c);
+    }
+    public void wheely(){
+        System.out.println("This car has " + wheels + "wheels");
+    }
+
+
+}
