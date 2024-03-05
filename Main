@@ -1,0 +1,6 @@
+public class Car extends Vehicle{
+    private int wheels;
+    public void wheely(){
+        System.out.println("This car has " + wheels + "wheels");
+    }
+}
