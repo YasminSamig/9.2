@@ -1,0 +1,16 @@
+public class Vehicle {
+    private String color;
+    private int speed;
+    public Vehicle(int s, String c){
+        speed=s;
+        color=c;
+
+    }
+    public void speedy(){
+        System.out.println("This vehicle goes at " + speed + "km/h");
+    }
+
+    public String getColor(){
+        return color;
+    }
+}
