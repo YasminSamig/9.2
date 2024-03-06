@@ -1,9 +1,12 @@
 public class Vehicle {
     private String color;
     private int speed;
-    public Vehicle(int s, String c){
+    private String owner;
+    public Vehicle(int s, String o, String c){
         speed=s;
         color=c;
+        owner =o;
+        System.out.println("Vehicle");
 
     }
     public void speedy(){
@@ -12,5 +15,9 @@ public class Vehicle {
 
     public String getColor(){
         return color;
+    }
+
+    public String getOwner(){
+        return owner;
     }
 }
