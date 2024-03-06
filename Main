@@ -1,6 +1,7 @@
-public class Car extends Vehicle{
-    private int wheels;
-    public void wheely(){
-        System.out.println("This car has " + wheels + "wheels");
+public class Main{
+    public static void main(String[] args){
+        Car bmw = new Car(4, "Holmer", 4);
+        System.out.println(bmw.getColor());
+        System.out.println(bmw.getOwner());
     }
 }
