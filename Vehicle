@@ -2,11 +2,14 @@ public class Vehicle {
     private String color;
     private int speed;
     private String owner;
-    public Vehicle(int s, String o, String c){
+    public Vehicle(int s, String o){
         speed=s;
-        color=c;
         owner =o;
         System.out.println("Vehicle");
+
+    }
+
+    public Vehicle (){
 
     }
     public void speedy(){
