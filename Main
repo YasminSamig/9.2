@@ -3,5 +3,7 @@ public class Main{
         Car bmw = new Car(4, "Holmer", 4);
         System.out.println(bmw.getColor());
         System.out.println(bmw.getOwner());
+        Motorcycle cycle = new Motorcycle();
+        System.out.println(cycle.getOwner());
     }
 }
